@@ -1,4 +1,6 @@
 # Ian Zhou
+
+# This is a second commit
 def encode(password):
     return ''.join(str(int(i) + 3) if int(i) < 7 else str(int(i) - 7) for i in password)
 
